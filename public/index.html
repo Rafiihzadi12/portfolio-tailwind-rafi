@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-gray-800 text-gray-500">
-    <header class="sticky bg-gray-950 py-5"> <!-- header -->
+    <header class="z-10 sticky bg-gray-950 py-5"> <!-- header -->
         <nav class="w-9/12 flex flex-row mx-auto">
           <div class="uppercase text-lg basis-1/4"> <!-- logo -->
         <a href="">
@@ -46,7 +46,7 @@
     </header>
 
     <main><!-- Main Content -->
-      <div class="bg-gray-950 -top-16"> <!-- Hero Section-->
+      <div class="bg-gray-950 relative -top-20"> <!-- Hero Section-->
         <div class="mx-auto flex h-screen items-center w-9/12 ">
           <div class="basis-1/2"> <!-- deskripsi -->
             <div class="flex items-center">
@@ -59,8 +59,8 @@
             </h2>
             </div>
             <h3 class="font-bold text-4xl text-white">
-              <span>Rafi</span> 
-              <span class="text-blue-700">Ihza</span>
+              <span>Ucup</span> 
+              <span class="text-blue-700">Surucup</span>
             </h3>
             <p class="font-light">
               Creative front-end developer with more than 5+ years of 
@@ -80,8 +80,71 @@
           </div>
         </div>
       </div>
-    </main>
 
-    <footer><!-- footer --></footer>
-  </body>
+     
+		<div id="services" class="bg-slate-50 pt-20 pb-20"> <!-- services -->
+			<div class="w-9/12 mx-auto">
+				<div class="flex flex-col place-items-center"> <!-- judul -->
+					<div>
+						<div class="flex items-center">
+							<svg class="stroke-gray-400 stroke-2 h-5 w-5">
+								<line x1="0" y1="10px" x2="10px" y2="10px"/>
+							</svg>
+							<h2 class="uppercase text-xs font-extralight tracking-ngangkang">
+								services
+							</h2>
+						</div>
+						<h3 class="text-3xl">Specialized in</h3>
+					</div>
+				</div>
+
+				<div class="grid grid-cols-3 gap-10 py-10"> <!-- cards -->
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="img/crown.svg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								UI/UX Design
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Turn what you have in mind of a digital product into reality. For any platform you consider.
+							</p>
+						</div>
+					</div>
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="img/app.svg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								Application Development
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Standard designing, building, and implementing your applications with documentation.
+							</p>
+						</div>
+					</div>
+					<div class="rounded-lg bg-white shadow-lg">
+						<div class="flex flex-col items-center py-10 px-10">
+							<div class="h-10 w-10 p-2 bg-blue-100 rounded-2xl">
+								<img class="w-full" src="img/globe.svg" alt="">
+							</div>
+							<h4 class="text-black mt-5">
+								Web Development
+							</h4>
+							<p class="text-center font-extralight text-sm mt-2 text-gray">
+								Create and maintain your websites and also take care of its performance and traffic capacity.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer> <!-- footer -->
+
+	</footer>
+</body>
 </html>
